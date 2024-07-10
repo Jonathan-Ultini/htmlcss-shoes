@@ -27,9 +27,28 @@ h1{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("../img/01.png");
   position: relative;
 }
+
+#shoe-1{
+  background-color: #FF0000;
+}
+#shoe-2{
+  background-color: #008000;
+}
+#shoe-3{
+  background-color: #FFFF00;
+}
+
+/*.full-page::before{
+  content: '';
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  background-color: red;
+}*/
 
 .full-page .content{
   position: absolute;
