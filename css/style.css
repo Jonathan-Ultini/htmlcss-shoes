@@ -7,12 +7,28 @@
 
 
 /* generics */
+html{
+  overflow-y: hidden;
+}
+
 body{
   font-family: 'Rubik Mono One', sans-serif;
 }
 
 h1{
-  font-size: 30px;
+  font-size: 50px;
+  font-family: 'Rubik Mono One';
+  font-weight: bold;
+}
+
+ul{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
 }
 
 /* utils */
@@ -30,14 +46,15 @@ h1{
   position: relative;
 }
 
-#shoe-1{
+#differente{
   background-color: #FF0000;
 }
-#shoe-2{
+#tommy{
   background-color: #008000;
 }
-#shoe-3{
+#converse{
   background-color: #FFFF00;
+  color: #008000;
 }
 
 /*.full-page::before{
@@ -56,4 +73,26 @@ h1{
   left: 50%;
   text-align: center;
   translate: -50% -50%;
+}
+
+/* side menu */
+
+.side-menu{
+  position: fixed;
+  right: 20px;
+  top: 0;
+}
+
+.side-menu a{
+  color: black;
+  background-color: #fff;
+  font-size: 18px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 20px;
+  text-align: center;
+  line-height: 40px;
+  margin-top: 40px;
 }
