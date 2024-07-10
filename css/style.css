@@ -11,8 +11,19 @@ body{
   font-family: 'Rubik Mono One', sans-serif;
 }
 
+
 /* utils */
 .container{
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.full-page{
+  height: 100vh;
+  color: yellow;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../img/01.png");
+  position: relative;
 }
