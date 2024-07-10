@@ -11,6 +11,9 @@ body{
   font-family: 'Rubik Mono One', sans-serif;
 }
 
+h1{
+  font-size: 30px;
+}
 
 /* utils */
 .container{
@@ -26,4 +29,12 @@ body{
   background-repeat: no-repeat;
   background-image: url("../img/01.png");
   position: relative;
+}
+
+.full-page .content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  translate: -50% -50%;
 }
