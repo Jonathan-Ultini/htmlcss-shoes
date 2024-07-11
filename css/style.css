@@ -32,6 +32,7 @@ a{
   font-weight: bold;
 }
 
+
 /* utils */
 .container{
   max-width: 1200px;
@@ -60,6 +61,13 @@ a{
   color: #008000;
 }
 
+.shadow{
+  filter: drop-shadow(0 0 0.75rem yellow);
+}
+
+.shadow-green{
+  filter: drop-shadow(0 0 0.75rem darkgreen);
+}
 /*.full-page::before{
   content: '';
   top: 0;
